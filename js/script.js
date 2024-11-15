@@ -312,6 +312,8 @@ document.querySelector(".range").getElementsByTagName("input")[0].addEventListen
 async function displayAlbums(folder0) {
     // Fetch the content of the folder
     let response = await fetch(`${baseURL}/${folder0}/`);
+    console.log(`${baseURL}/${folder}/`); // Output the URL to debug
+
 
     // Check if the fetch was successful
     if (!response.ok) {
