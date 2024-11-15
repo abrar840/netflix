@@ -35,7 +35,7 @@ async function getSongs(folder) {
 
         // let response = await fetch("http://127.0.0.1:5500/songs/");
 
-        let response = await fetch(`/${folder}/`);
+        let response = await fetch(`http://127.0.0.1:5500/${folder}/`);
         // Check if the fetch was successful
         if (!response.ok) {
             console.error("Network response was not ok:", response.statusText);
@@ -310,7 +310,7 @@ document.querySelector(".range").getElementsByTagName("input")[0].addEventListen
 
 async function displayAlbums(folder0) {
     // Fetch the content of the folder
-    let response = await fetch(`http://127.0.0.1:5500/${folder0}/`);
+    let response = await fetch(`/${folder0}/`);
     // Check if the fetch was successful
     if (!response.ok) {
         console.error("Network response was not ok:", response.statusText);
