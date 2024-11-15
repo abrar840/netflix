@@ -1,6 +1,7 @@
-console.log("hello this is js");
 
 
+
+let baseURL = window.location.origin;
 let currentSong = new Audio;
 
 
@@ -310,7 +311,8 @@ document.querySelector(".range").getElementsByTagName("input")[0].addEventListen
 
 async function displayAlbums(folder0) {
     // Fetch the content of the folder
-    let response = await fetch(`/${folder0}/`);
+    let response = await fetch(`${baseURL}/${folder}/`);
+
     // Check if the fetch was successful
     if (!response.ok) {
         console.error("Network response was not ok:", response.statusText);
