@@ -1,0 +1,59 @@
+
+/* For Firefox */
+* {
+    scrollbar-width: thin; /* Make scrollbar thinner */
+    scrollbar-color: #525050 #181616; /* thumb color and track color */
+}
+
+
+
+
+.border{
+    border: 2px solid red;
+}
+
+.flex{display: flex;}
+
+.justify-center{
+    justify-content: center;
+}
+
+
+.align-cotent{
+
+    align-items: center;
+
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+
+.invert{
+    filter:invert(1);
+}
+
+.bg-grey{
+
+    background-color: #1b1b1c;
+
+}
+
+.bg-grey1{
+
+    background-color: #0f0f10;
+
+}
+
+
+
+.rounded{
+    border-radius: 7px;
+}
+
+.sansarif{
+font-family: sans-serif;
+
+}

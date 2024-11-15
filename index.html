@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utility.css" />
+  </head>
+  <body>
+    <div class="container flex bg-black">
+      <div class="left bg-black">
+        <div class="home bg-grey rounded">
+          <div class="close-svg">
+            <img class="invert close" src="svg/close.svg" alt="" />
+          </div>
+          <div class="logo">
+            <img class="invert" src="svg/spotify-logo.svg" alt="" />
+            Spotify
+          </div>
+          <ul>
+            <li><img class="invert" src="svg/home.svg" alt="" />home</li>
+            <li><img class="invert" src="svg/search.svg" alt="" />search</li>
+          </ul>
+        </div>
+
+        <div class="library bg-grey1">
+          <div class="lib-heading flex">
+            <img class="invert"     src="svg/book.svg" alt="book" />
+            <h4>Your Library</h4>
+            <!-- <img src="plus.svg" alt="+" /> -->
+          </div>
+
+          <!-- <div class="play-list rounded">
+            <h5 class="sansarif">Create your first playlist</h5>
+            <h6 class="sansarif">its easy, we'll help you</h6>
+            <button class="playlist-btn library-btn">Create Playlist</button>
+          </div>
+
+          <div class="browse rounded">
+            <h5>let's find some podcast to follow</h5>
+            <h6>we'll keep you updated on new episodes</h6>
+            <button class="browse-btn library-btn">Browse Podcast</button>
+
+          </div>
+
+           -->
+          <div class="song-list">
+            <ul></ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="right bg-grey">
+        <div class="header">
+          <div class="nav">
+            <div class="hamburger-container">
+              <img class="invert hamburger" src="svg/hamburger.svg" alt="jj" />
+
+              <div class="arrows">
+                <img src="svg/left-arrow.svg" alt="arrows" />
+                <img src="svg/right-arrow.svg" alt="arrows" />
+              </div>
+            </div>
+
+            <div class="btn">
+              <button class="signUp-btn">SignUp</button>
+              <button class="logIn-btn">LogIn</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="spotify-playlist">
+          <h1>Spotify Playlist</h1>
+
+          <div class="cardcontainer">
+            <!-- <div data-folder="cs" class="card">
+              <div class="play-button-svg">
+                <img src="svg/play-button.svg" alt="nn" />
+              </div>
+              <img class="articleimg" src="images/happy-hits.png" alt="" />
+                 <div class="text">
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with happiness</p>
+            </div>
+            </div> -->
+
+            <!-- <div data-folder="ncs" class="card">
+              <div class="play-button-svg">
+                <img src="svg/play-button.svg" alt="nn" />
+              </div>
+              <img class="articleimg" src="images/img2.png" alt="" />
+                 <div class="text">
+              <h2>Happy Hits!</h2>
+              <p>Hits to boost your mood and fill you with happiness</p>
+            </div> -->
+
+            <!-- </div> -->
+          </div>
+        </div>
+
+        <div class="playbar">
+          <div class="seek-bar">
+            <div class="circle"></div>
+          </div>
+
+          <div class="below-seekbar">
+            <!-- <div class="leftplaybar"> -->
+            <div class="song-info"></div>
+            <div class="song-buttons invert">
+              <img
+                width="35px"
+                id="previous"
+                src="svg/previous-button.svg"
+                alt=""
+              />
+              <img width="35px" id="play" src="svg/play2.svg" alt="" />
+              <img width="35px" id="next" src="svg/next-button.svg" alt="" />
+            </div>
+            <!-- </div> -->
+
+            <div class="voltime">
+              <div class="volume">
+                <img src="svg/volume.svg" alt="" />
+                <div class="range">
+                  <input type="range" name="" id="" />
+                </div>
+              </div>
+              <div class="song-time"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
