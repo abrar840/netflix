@@ -35,7 +35,7 @@ async function getSongs(folder) {
 
         // let response = await fetch("http://127.0.0.1:5500/songs/");
 
-        let response = await fetch(`http://127.0.0.1:5500/${folder}/`);
+        let response = await fetch(`/${folder}/`);
         // Check if the fetch was successful
         if (!response.ok) {
             console.error("Network response was not ok:", response.statusText);
