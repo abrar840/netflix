@@ -440,7 +440,7 @@ document.querySelector(".volume>img").addEventListener("click", e => {
 async function main() {
 
 
-    displayAlbums("public/songs/");
+    displayAlbums("/public/songs");
 
 }
 
