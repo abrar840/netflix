@@ -311,7 +311,13 @@ let baseURL = window.location.origin;
 
 async function displayAlbums(folder0) {
     // Fetch the content of the folder
+ 
     let response = await fetch(`/${folder0}/`);
+
+   
+    console.log(`${baseURL}/${folder0}/`); // Output the URL to debug
+
+ 
     // Check if the fetch was successful
     if (!response.ok) {
         console.error("Network response was not ok:", response.statusText);
