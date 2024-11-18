@@ -307,7 +307,7 @@ document.querySelector(".range").getElementsByTagName("input")[0].addEventListen
 //load playlist whenever card is clicked 
 
 
-let baseURL = window.location.origin;
+// let baseURL = window.location.origin;
 
 async function displayAlbums(folder0) {
     // Fetch the content of the folder
@@ -315,7 +315,7 @@ async function displayAlbums(folder0) {
     let response = await fetch(`/${folder0}/`);
 
    
-    console.log(`${baseURL}/${folder0}/`); // Output the URL to debug
+    console.log(`/${folder0}/`); // Output the URL to debug
 
  
     // Check if the fetch was successful
