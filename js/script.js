@@ -311,11 +311,19 @@ document.querySelector(".range").getElementsByTagName("input")[0].addEventListen
 
 async function displayAlbums(folder0) {
     // Fetch the content of the folder
- 
+    try {
+        let response = await fetch(`/${folder0}/`);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    } catch (error) {
+        console.error("Fetch failed:", error);
+    }
+
+    console.log(`/${folder0}/`); // Output the URL to debug
+    
     let response = await fetch(`/${folder0}/`);
 
    
-    console.log(`/${folder0}/`); // Output the URL to debug
+    
 
  
     // Check if the fetch was successful
