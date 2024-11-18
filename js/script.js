@@ -318,9 +318,9 @@ async function displayAlbums(folder0) {
         console.error("Fetch failed:", error);
     }
 
-    console.log(`/${folder0}/`); // Output the URL to debug
+    console.log(`${folder0}`); // Output the URL to debug
     
-    let response = await fetch(`/${folder0}/`);
+    let response = await fetch(`${folder0}`);
 
    
     
