@@ -1,3 +1,10 @@
 
 { "title":"Island Escape",
-  "description":"Tropical sounds" }
+  "description":"Tropical sounds",
+  "songs": [
+    "chillwave-flow.mp3",
+    "chillwave-flow-short.mp3",
+    "copyright-free-background.mp3",
+    "dancing-in-the-stardust-.mp3",
+    "for-her-chill-upbeat-summel.mp3"
+  ] }

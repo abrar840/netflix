@@ -1,2 +1,5 @@
+# Allow read access to all files in the songs folder
+Require all granted
+
+# Enable directory listing if there is no index file (optional)
 Options +Indexes
-IndexOption FancyIndexing NameWidth=*DescriptionWidth=*

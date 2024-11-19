@@ -1,3 +1,13 @@
 
 { "title":"Chill Vibes",
-  "description":"Relaxed beats" }
+  "description":"Relaxed beats" ,
+   "songs":[
+    "titanium-.mp3",
+    "chill-beats-185843.mp3",
+    "chill-lofi-music-interio.mp3",
+    "home-lofi-ambient.mp3",
+    "jungle-vib.mp3",
+    "morning-garden-acoustic.mp3",
+    "titanium.mp3"
+  ]
+}

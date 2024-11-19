@@ -1,4 +1,16 @@
-
-{ "title":"Reimagined Classics",
-  "description":"Unique renditions"
-  }
+{
+  "title": "Reimagined Classics",
+  "description": "Unique renditions",
+  "songs": [
+    "the-office-259183 (1).mp3",
+    "beautiful-movie-plot.mp3",
+    "enter-goodman-156525.mp3",
+    "fallen-down-repris.mp3",
+    "let-it-sno.mp3",
+    "loced-out-phonk.mp3",
+    "loon-boon-dreamjer.mp3",
+    "lunatic-visuanaval.mp3",
+    "pomp-and-circumstance.mp3",
+    "the-office.mp3"
+  ]
+}

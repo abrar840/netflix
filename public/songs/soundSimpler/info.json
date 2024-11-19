@@ -1,3 +1,11 @@
 
 { "title":"Sound Sampler",
-  "description":"Experimental mix"}
+  "description":"Experimental mix",
+"songs": [
+    "sound-ambience-sonido-ambiente-68-15693.mp3",
+    "water-fountain-healing-music-239455.mp3",
+    "background-sound.mp3",
+    "euphoria-atmospheric.mp3",
+    "on-the-dance-floor.mp3",
+    "relaxing-sound-.mp3"
+  ]}
