@@ -492,7 +492,7 @@ body {
     padding: 40px;
     overflow-x: hidden;
     margin: 5px;
-height: 344px;
+height:315px;
 
 
   }
@@ -506,9 +506,11 @@ height: 344px;
 }
 
 @media (max-width: 430px) {
-  .card {
-    width: 266px;
-  }
+  
+    .card{
+        width: 64vw;
+    }
+  
 
   .cardcontainer {
     padding: 28px;
@@ -553,6 +555,9 @@ height: 344px;
 }
 
 @media (max-width: 344px) {
+    .card{
+        width: 75vw;
+    }
   .articleimg {
     width: 70vw;
     height: 250px;
@@ -604,6 +609,6 @@ height: 344px;
   }
 
   .card {
-    width: 210px;
+    width: 74vw;
   }
 }
