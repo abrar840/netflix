@@ -1,7 +1,7 @@
 {
     "headers": [
       {
-        "source": "/path-to-json-file.json",
+        "source": "/songs/info.json",
         "headers": [
           {
             "key": "Cache-Control",
